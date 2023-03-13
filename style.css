@@ -1,5 +1,25 @@
-@media (min-width: 480px) {
-    #navbar {
-      position: fixed;
-    }
-  }
+html {
+  margin: none;
+  padding: none;
+}
+
+main {
+  display: flex;  
+}
+
+header, a {
+  padding-bottom: 1%;
+}
+
+nav {
+  width: 60%;
+  height: 100%;
+  padding: 0.5%;
+  top: 0;
+  left: 0;
+  position: sticky;
+}
+
+nav a {
+  display: block;
+}
