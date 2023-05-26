@@ -19,7 +19,7 @@ header, a {
 
 nav {
   width: 15%;
-  height: 38.5%;
+  height: 40%;
   padding: 0.5%;
   top: 0;
   left: 0;
@@ -31,10 +31,12 @@ nav {
 }
 
 code {
+  display: block;
   background-color: gray;
   color: beige;
   padding: 0.4%;
   border-radius: 0.25em;
+  line-height: 1.7;
 }
 
 .section-title {
