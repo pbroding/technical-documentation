@@ -15,8 +15,6 @@ a {
 header, a {
   padding-bottom: 1%;
 }
-
-DELETE IF DON'T NEED
 */
 
 nav {
@@ -35,6 +33,12 @@ nav {
 code {
   background-color: gray;
   color: beige;
+  padding: 0.4%;
+  border-radius: 0.25em;
+}
+
+.section-title {
+  padding-top: 1em;
 }
 
 nav a {
