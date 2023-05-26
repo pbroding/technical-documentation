@@ -22,6 +22,8 @@ nav {
   top: 0;
   left: 0;
   position: sticky;
+  background-color: gray;
+  border-radius: 0.25em;
 }
 
 nav a {
@@ -29,6 +31,10 @@ nav a {
 }
 
 .nav-link {
-  padding: 1%;
-  /*color: gray;*/
+  padding: 1% 2%;
+  color: beige;
+}
+
+#menu-header {
+  color: beige;
 }
