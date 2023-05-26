@@ -11,17 +11,19 @@ a {
   text-decoration: none;
 }
 
+/*
 header, a {
   padding-bottom: 1%;
 }
+*/
 
 nav {
-  width: 60%;
+  width: 15%;
   height: 100%;
   padding: 0.5%;
   top: 0;
   left: 0;
-  position: sticky;
+  position: fixed;
   background-color: gray;
   border-radius: 0.25em;
 }
@@ -37,4 +39,9 @@ nav a {
 
 #menu-header {
   color: beige;
+}
+
+#content {
+  padding-left: 16%;
+  color: black;
 }
