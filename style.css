@@ -15,6 +15,7 @@ a {
 
 code {
   font-family: 'VT323', monospace;
+  font-size: 1.25em;
 }
 
 /*
@@ -26,6 +27,11 @@ header, a {
 header, p, li {
   font-family: 'Playfair', serif;
   font-size: 1.10em;
+  letter-spacing: 0.015em;
+}
+
+header {
+  font-size: 1.20em;
   letter-spacing: 0.015em;
 }
 
