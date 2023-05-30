@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Playfair:wght@300&family=VT323&display=swap');
 
-html {
-  margin: none;
-  padding: none;
+a {
+  text-decoration: none;
 }
 
 body {
@@ -10,69 +9,9 @@ body {
   margin-bottom: 5%;
 }
 
-main {
-  display: flex;  
-}
-
-a {
-  text-decoration: none;
-}
-
 code {
   font-family: 'VT323', monospace;
   font-size: 1.25em;
-}
-
-hr {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-/*
-header, a {
-  padding-bottom: 1%;
-}
-*/
-
-header, p, li {
-  font-family: 'Playfair', serif;
-}
-
-header {
-  font-size: 1.20em;
-  letter-spacing: 0.015em;
-  text-decoration-line: underline;
-}
-
-p {
-  line-height: 130%;
-  margin-bottom: -0.5%;
-  font-size: 1.1em;
-}
-
-li {
-  margin-bottom: -0.5%;
-  font-size: 1.1em;
-}
-
-nav {
-  width: 310px;
-  /*height: 40%;*/
-  top: 0;
-  left: 0;
-  position: fixed;
-}
-
-header, ul {
-  margin-bottom: -0.5%;
-}
-
-li {
-  margin-bottom: 0.4%;
-  line-height: 130%;
-}
-
-code {
   display: block;
   background-color: gray;
   color: beige;
@@ -84,12 +23,55 @@ code {
   margin-top: 1.5%;
 }
 
-.section-title {
-  padding-top: 1em;
+header {
+  font-size: 1.20em;
+  letter-spacing: 0.015em;
+  text-decoration-line: underline;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+html {
+  margin: none;
+  padding: none;
+}
+
+li {
+  margin-bottom: 0.4%;
+  line-height: 130%;
+  font-size: 1.1em;
+}
+
+main {
+  display: flex;  
+}
+
+nav {
+  width: 310px;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+p {
+  line-height: 130%;
+  margin-bottom: -0.5%;
+  font-size: 1.1em;
+}
+
+header, ul {
+  margin-bottom: -0.5%;
 }
 
 nav a {
   display: block;
+}
+
+header, p, li {
+  font-family: 'Playfair', serif;
 }
 
 .nav-link {
@@ -99,6 +81,10 @@ nav a {
   color: beige;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.3em;
+}
+
+.section-title {
+  padding-top: 1em;
 }
 
 #content {
@@ -114,11 +100,11 @@ nav a {
   margin-left: 2%;
 }
 
-#section_two_menu_title {
-  font-size: 1.25em;
-}
-
 #reference {
   text-decoration-line: none;
   font-size: 1.1em;
+}
+
+#section_two_menu_title {
+  font-size: 1.25em;
 }
