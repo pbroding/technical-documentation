@@ -96,8 +96,9 @@ header, p, li {
 #nav-container {
   background-color: gray;
   border-radius: 0.25em;
-  margin-top: 2%;
-  margin-left: 2%;
+  margin-top: 3%;
+  margin-left: 3%;
+  box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.53);
 }
 
 #reference {
